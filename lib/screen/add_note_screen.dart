@@ -44,7 +44,7 @@ class _Add_creenState extends State<Add_creen> {
       children: [
         ElevatedButton(
           style: ElevatedButton.styleFrom(
-            primary: custom_green,
+            backgroundColor: custom_green,
             minimumSize: Size(170, 48),
           ),
           onPressed: () {
@@ -55,7 +55,7 @@ class _Add_creenState extends State<Add_creen> {
         ),
         ElevatedButton(
           style: ElevatedButton.styleFrom(
-            primary: Colors.red,
+            backgroundColor: Colors.red,
             minimumSize: Size(170, 48),
           ),
           onPressed: () {

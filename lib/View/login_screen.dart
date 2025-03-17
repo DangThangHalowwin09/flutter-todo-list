@@ -1,5 +1,6 @@
 // This screen handles user login with email and password
 import 'package:flutter/material.dart';
+import 'package:flutter_to_do_list/screen/home.dart';
 import '../Service/auth_service.dart';
 import 'home_screen.dart';
 
@@ -49,7 +50,7 @@ class _LoginScreenState extends State<LoginScreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (_) => const UserScreen(),
+          builder: (_) => const Home_Screen(),
         ),
       );
     } else {

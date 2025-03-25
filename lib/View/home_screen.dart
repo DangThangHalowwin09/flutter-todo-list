@@ -55,7 +55,7 @@ class AdminScreen extends StatelessWidget {
                   const SizedBox(height: 15),
                   ElevatedButton(
                     onPressed: () {
-                      _authService.signOut();
+                      //_authService.signOut();
                       Navigator.pushReplacement(
                         context,
                         MaterialPageRoute(
